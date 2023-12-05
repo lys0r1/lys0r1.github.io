@@ -1,0 +1,311 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-VariableFont_wght.ttf) format("truetype");;
+  font-style: normal; 
+  font-weight: normal; 
+}
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../font/Montserrat-Thin.ttf) format("truetype");;
+  font-style: normal; 
+  font-weight: normal; 
+}
+@font-face {
+  font-family: "Miama-Nueva";
+  src: url(../font/ofont.ru_Miama\ Nueva.ttf) format("truetype");;
+  font-style: normal; 
+  font-weight: normal; 
+}
+@font-face {
+  font-family: "Kavoon";
+  src: url(../font/Kavoon-Regular.ttf) format("truetype");;
+  font-style: normal; 
+  font-weight: normal; 
+}
+.container{
+display: flex;
+justify-content: flex-end;
+    flex-wrap: wrap;
+position: absolute;
+}
+.container1{
+    
+    margin-top: 1000px;
+    right: 500px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    text-align: center;
+}
+.container2{
+    
+  margin-top: 2150px;
+  margin-left: 592px;
+  right: 500px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: absolute;
+  text-align: center;
+  
+}
+.info{
+    color: #000000;
+    text-align: left;
+    font: 400 128px/110% "Kavoon", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 150px;
+  }
+.bg{
+    max-width: 100%;
+    display: flex;
+    width:  1920px; 
+    height: 963px; 
+background-image: url(../img/bg.jpg);
+background-size: 100%;
+}
+.rectangle-1,
+.rectangle-1 * {
+  box-sizing: border-box;
+}
+.rectangle-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 398px;
+  height: 378px;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+._8 {
+  color: #000000;
+  text-align: left;
+  font: 400 154px "Kavoon", sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 164px;
+  width: 94px;
+  height: 160px;
+}
+.yers{
+  color: #000000;
+  text-align: left;
+  font: 100 96px "Montserrat-Thin", sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  position: absolute;
+  top: 360px;
+  left: 124px;
+}
+.work{
+  color: #000000;
+  text-align: left;
+  font: 100 36px "Montserrat-Thin", sans-serif;
+  position: absolute;
+  top: 460px;
+  left: 40px;
+}
+._2015 {
+  color: #000000;
+  text-align: right;
+  font: 400 24px "Kavoon-Regular", sans-serif;
+  position: absolute;
+  left: 200px;
+  top: 148px;
+  left: -426px;
+  width: 416px;
+  height: 278px;
+}
+.mas{
+  
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Kavoon-Regular", sans-serif;
+    position: absolute;
+    top: 146px;
+    left: 417px;
+    width: 416px;
+    height: 278px;
+  
+  
+}
+.logo{
+    margin-top: 27px;
+width: 195px;
+height: 135px;
+flex-shrink: 0;
+}
+.logo1{
+    margin-left: 290px;
+    margin-right: 130px;
+    align-items: center;
+    width: 362px;
+    height: 251px;
+    flex-shrink: 0;
+    display: flex;
+}
+.textsp{
+    color: #FFF;
+    padding-top: 79px;
+    max-height: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Kavoon";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.textinf{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 5.12px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 106px;
+    left: 186px;
+}
+.inf2{
+    position: absolute;
+    top: 200px;
+    stroke-width: 3px;
+    color: black;
+    width: 588px;
+    top: 170px;
+    left: 74px;
+flex-shrink: 0;
+}
+.textlog{
+    margin-right: -67px;
+    display: flex;
+    margin-top: 10px;
+    color: #FFF;
+    font-family: "Miama-Nueva";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal [хуй];
+}
+.cit{
+    display: flex;
+    margin-right: -45px;
+    margin-top: 269px;
+    margin-left: -545px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.cit1{
+    color: #FFF;
+    margin-right: -145px;
+    margin-top: 320px;
+    max-height: 10px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.inf{
+position: relative;
+}
+.link-underline{
+color: #FFF;
+}
+
+.footer{
+  position:absolute;
+  top: 2800px;
+  text-align: center;
+
+  padding: 20px; /* Поля вокруг текста */
+  background: #646464; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  height: 200px;
+  width: 100%; /* Ширина слоя */
+}
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 237px;
+  top: 754px;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+
